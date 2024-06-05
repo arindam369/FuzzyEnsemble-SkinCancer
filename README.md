@@ -3,16 +3,11 @@ Arindam Halder, Sanghita Gharami, Anogh Dalal, Pawan Kumar Singh<sup>[[0000-0002
 
 ### Directory Structure
 
-
 ```
-
-+-- gradcam
-|   +-- .
-|   +-- GradCAM_DermaMNIST.ipynb
-|   +-- GradCAM_Ham10000.ipynb
-+-- Ham10000_FuzzyEnsembled.ipynb
-+-- DermaMNIST_FuzzyEnsembled.ipynb
-
++-- assets
++-- DermaMNIST_FuzzyEnsemble.ipynb
++-- GradCAM_DermaMNIST.ipynb
++-- Ham10000_FuzzyEnsemble_GradCAM.ipynb
 ```
 
 ## Running Codes
@@ -21,7 +16,11 @@ Arindam Halder, Sanghita Gharami, Anogh Dalal, Pawan Kumar Singh<sup>[[0000-0002
 
 ``` git clone https://github.com/arindam369/FuzzyEnsemble-SkinCancer.git ``` &nbsp;  ``` cd FuzzyEnsemble-SkinCancer ```
 
-*Run Ham10000_FuzzyEnsembled.ipynb, DermaMNIST_FuzzyEnsembled.ipynb files to view the result of our fuzzy ensemble model on Ham10000 & DermaMNIST datasets respectively. ``gradcam`` directory contains the codes of visualising GradCAM Analysis on the respective datasets using our proposed model.*
+- Run ``Ham10000_FuzzyEnsemble_GradCAM.ipynb`` file to view the result of our fuzzy ensemble model on Ham10000 dataset.
+- Run ``DermaMNIST_FuzzyEnsemble.ipynb`` file to view the result of our fuzzy ensemble model on DermaMNIST dataset.
+- To visualise GradCAM analysis on DermaMNIST dataset, run the ``GradCAM_DermaMNIST.ipynb`` file.<br>
+
+``assets`` directory contains all the images of our study including result, architectures etc.
 
 
 
