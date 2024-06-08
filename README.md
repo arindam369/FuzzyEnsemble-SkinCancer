@@ -1,10 +1,10 @@
-# A Fuzzy Deep Ensemble Methodology for Classifying Skin Cancer Images
-Arindam Halder, Sanghita Gharami, Anogh Dalal, Pawan Kumar Singh<sup>[[0000-0002-9598-7981](https://orcid.org/0000-0002-9598-7981)]</sup>
+# A Fuzzy Rank-based Deep Ensemble Methodology for Multi-Class Skin Cancer Classification
+Arindam Halder, Anogh Dalal, Sanghita Gharami, Pawan Kumar Singh<sup>[[0000-0002-9598-7981](https://orcid.org/0000-0002-9598-7981)]</sup>
 
 ### Directory Structure
 
 ```
-+-- assets
++-- assets/
 +-- DermaMNIST_FuzzyEnsemble.ipynb
 +-- GradCAM_DermaMNIST.ipynb
 +-- Ham10000_FuzzyEnsemble_GradCAM.ipynb
@@ -20,7 +20,7 @@ Arindam Halder, Sanghita Gharami, Anogh Dalal, Pawan Kumar Singh<sup>[[0000-0002
 - Run ``DermaMNIST_FuzzyEnsemble.ipynb`` file to view the result of our fuzzy ensemble model on DermaMNIST dataset.
 - To visualise GradCAM analysis on DermaMNIST dataset, run the ``GradCAM_DermaMNIST.ipynb`` file.<br>
 
-``assets`` directory contains all the images of our study including result, architectures etc.
+``assets`` directory contains all the images of our study including results, architectures etc.
 
 
 
